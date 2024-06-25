@@ -88,7 +88,7 @@ export default function MessageWindow(): React.JSX.Element {
   const HandleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setMessage(event.target.value);
   };
-
+  
   //console.log(message);
   //HandleSubmit  is assigned to the button as an on click event so when the button is clicked first I get the message and make an object and give it an ID then I add it to the message list via concat
   // the set message list overwrites the intial empty state of the array and continues to concat everything to the array but the only thing that gets ingested into the div is the current array of characters in the input
